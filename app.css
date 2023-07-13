@@ -1,0 +1,184 @@
+body{
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    text-shadow: 1px 1px 2px black;
+    /* width: 100vw;
+    height: 100vh; */
+    overflow: hidden;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-grow:1;
+    margin-top: 2%;
+    /* background-color: blue; */
+}
+
+h1{
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 0%;
+    color: #E50914;
+    padding: 0%;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    width: 35%;
+}
+
+nav input{
+    width: 18rem;
+    border-radius: 3rem;
+    border: solid 0px;
+    /* background-color: transparent; */
+    /* border: solid 1px white; */
+}
+
+input:focus{
+    outline: none;
+}
+
+nav>div{
+    cursor: pointer;
+    height: 20px;
+}
+
+/* nav>div:hover{
+    border-bottom: solid 2px #E50914;
+} */
+
+#features{
+    display: flex;
+    justify-content: space-between;
+    width: 15%
+}
+
+/* #features>div{
+    width: 25%;
+} */
+.featuresIcon{
+    width: 30px;
+    margin-top: 0.2rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+.featuresbtn{
+    cursor: pointer;
+    border-radius: 2rem;
+    border: solid 0px;
+    background-color: transparent;
+    background-color: #E50914;
+    width: 6rem;
+    color: rgb(255, 255, 255);
+    padding: 4%;
+}
+
+.featuresbtn:hover{
+    background-color: #E50914;
+    color: rgb(255, 255, 255);
+    /* padding: 2% 4% 2% 4%; */
+}
+
+main{
+    width: 100%;
+    height: 68vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: green; */
+}
+
+#first{
+    font-size: 4rem;
+    display: inline;
+    text-transform: uppercase;
+}
+#second{
+    font-size: 4rem;
+    display: inline;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.moviebtn{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    padding: 2% 2% 2% 1%;
+}
+
+.moviebtn>button{
+    display: flex;
+    gap: 0.2rem;
+    border-radius: 2rem;
+    border: solid 0px;
+    color: white;
+    padding: 2% 4% 2% 4%;
+    background-color: #E50914;
+}
+
+#playIcon{
+    width: 1rem;
+}
+#details{
+    width: 35%;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.sensor{
+    background-color: #E50914;
+    border-radius: 2rem;
+    padding: 0% 1% 0% 1%;
+}
+
+.genre{
+    opacity: 0.7;
+}
+
+.moviebtn button{
+    cursor: pointer;
+}
+
+footer{
+    flex-grow:1;
+    /* background-color: blue; */
+}
+
+.recommendationSec{
+    display: flex;
+    padding-left: 2%;
+    /* background-color: rgb(82, 82, 82); */
+
+}
+.recommendation>div{
+    width: 30%;
+    
+}
+
+.recImg{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 0.5em;
+}
+
+.recommendation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
