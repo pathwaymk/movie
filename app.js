@@ -104,12 +104,11 @@ suprise.addEventListener('click', () => {
 
 
 infoBtn[0].onclick = function() {
-  location.assign(`https://www.youtube.com/results?search_query=${Movie_title}+trailer`)
+  window.open(`https://www.youtube.com/results?search_query=${Movie_title}+trailer`, '_blank').focus();
 }
 
 infoBtn[1].onclick = function () {
-  console.log("hello")
-  location.assign(`https://www.imdb.com/find/?q=${Movie_title}`);
+  window.open(`https://www.imdb.com/find/?q=${Movie_title}`, '_blank').focus();
 }
 
 getResponse()
